@@ -1,8 +1,14 @@
 GNARQL Audio Collection Aggregator
-----------------------------------
+==================================
 
+About
+-----
 
-INSTALL:
+GNARQL creates an aggregation of structured web data focused on a user's audio collection. It exposes this aggregation through a SPARQL enpoint. See also [Yves Raimond's](http://moustaki.org) PhD thesis ["A Distributed Music Information
+System"](http://moustaki.org/phd/thesis.pdf) for a description of this tool.
+
+Install
+-------
 
  * Make sure you have SWI-Prolog installed
    
@@ -16,13 +22,15 @@ INSTALL:
  * That's it!
 
 
-RUN:
+Run
+---
 
  * Launch start.pl (modify the header of the script
    if your prolog install is elsewhere than in /usr/local)
  * That's it!
 
-USE:
+Use
+---
 
 Now, here are the things that you can do. GNARQL exposes 
 a set of URI, that can be used to drive it.
@@ -62,9 +70,8 @@ some data about it!
    This will launch the crawling process. Note that it should resume
    fine (if you stop your GNARQL or in case of crash).
 
-
-========================================
-
+Additional Notes
+----------------
 
 At any time, you can query the GNARQL instance through the SPARQL end-point at:
 
@@ -74,5 +81,7 @@ There is also a Web interface available at:
 
  * http://localhost:3021/
 
+PS
+--
 
-
+The [old project repository location at SourceForge](http://motools.svn.sourceforge.net/viewvc/motools/gnarql/) is now deprecated. All new developments will be pushed to this repository location here at GitHub.
